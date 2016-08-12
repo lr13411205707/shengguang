@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--视口设置
+		1 物理视口，也就是当width=device-width，就会生效，视口的大小根据屏幕的物理尺寸而定-->
+		
+		<!--代码注释
+		width=device-width   表示窗口的宽度根据屏幕的物理宽度来定
+		initial-scale        表示初始的放大
+		minimum-scale
+		maximum-scale
+		user-scale-->
+	<!--	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>-->
+		
+		
+		<!--2 布局视口，可以理解为一个模拟大小的窗口，该窗口的大小可以由我们决定-->
+		<meta name="viewport" content="width=640,user-scalable=no"/>
+		
+		<!--3 当视口缺省的时候，默认视口的宽度为980px-->
+	</head>
+	<body>
+		<style type="text/css">
+			.web{
+				width: 900px;
+				height: 1000px;
+				background: skyblue;
+				border: 5px solid red;
+			}
+		</style>
+		
+		<div class="web">
+			
+		</div>
+		
+	</body>
+</html>
